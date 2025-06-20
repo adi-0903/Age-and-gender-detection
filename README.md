@@ -95,7 +95,9 @@ pretrained_models/haarcascade_frontalface_alt.xml
 
 Download the model manually from this link:
 
-📥 weights.18-4.06.hdf5 (Google Drive)
+📥 weights.18-4.06.hdf5 
+
+https://drive.google.com/file/d/1rZ2ChR_RIeLxztyQ0DB2FfVHeBM7576b/view?usp=sharing
 
 Save it here:
 
@@ -107,8 +109,11 @@ pretrained_models/weights.18-4.06.hdf5
 +---------------------+
 | Webcam Live Feed    |
 +---------------------+
+
         |
+        
         v
+
 +-------------------------+
 | Face Detection (OpenCV) |
 +-------------------------+
