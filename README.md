@@ -109,9 +109,7 @@ pretrained_models/weights.18-4.06.hdf5
 +---------------------+
 | Webcam Live Feed    |
 +---------------------+
-
         |
-        
         v
 
 +-------------------------+
@@ -119,12 +117,14 @@ pretrained_models/weights.18-4.06.hdf5
 +-------------------------+
         |
         v
+
 +-----------------------------+
 | WideResNet Model (Keras)    |
 |  - Predict Age & Gender     |
 +-----------------------------+
         |
         v
+
 +-----------------------------+
 | If Age/Gender match group:  |
 | Play relevant video         |
