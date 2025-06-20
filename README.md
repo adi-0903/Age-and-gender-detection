@@ -13,11 +13,16 @@ Female (25–30)
 Clone the repository
 
 git clone https://github.com/yourusername/Gender-Recognition-and-Age-Estimator.git
+
 cd Gender-Recognition-and-Age-Estimator
+
 Create and activate a virtual environment
 
 conda create -n tf-env python=3.8
+
 conda activate tf-env
+
+
 Install dependencies
 
 pip install -r requirements.txt
