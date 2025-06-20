@@ -7,12 +7,19 @@ This project detects **faces** from a **webcam feed**, predicts **age** and **ge
 ## 🧠 What It Does
 
 - Uses **OpenCV** to capture video frames and detect faces.
+
 - Uses a **pretrained WideResNet model** to estimate:
+
   - **Age** (0–100)
+
   - **Gender** (Male or Female)
+
 - Plays a **video from a folder** depending on age/gender:
+
   - 👨 **Male (25–30)** → `25-30/`
+
   - 👨‍🦰 **Male (30–35)** → `30-35/`
+
   - 👩 **Female (25–30)** → `F25-30/`
 
 ---
@@ -20,20 +27,32 @@ This project detects **faces** from a **webcam feed**, predicts **age** and **ge
 ## 📁 Folder Structure
 
 Gender-Recognition-and-Age-Estimator/
-│
-├── pretrained_models/
-│ ├── haarcascade_frontalface_alt.xml # OpenCV face detector
-│ └── weights.18-4.06.hdf5 # Age/Gender pretrained model
-│
-├── 25-30/ # Videos for males 25–30
-├── 30-35/ # Videos for males 30–35
-├── F25-30/ # Videos for females 25–30
-│
-├── realtime_demo.py # Main Python script
-├── wide_resnet.py # WideResNet model definition
-├── README.md # You're reading it!
-├── requirements.txt # Dependencies
 
+│
+
+├── pretrained_models/
+
+│ ├── haarcascade_frontalface_alt.xml # OpenCV face detector
+
+│ └── weights.18-4.06.hdf5 # Age/Gender pretrained model
+
+│
+
+├── 25-30/ # Videos for males 25–30
+
+├── 30-35/ # Videos for males 30–35
+
+├── F25-30/ # Videos for females 25–30
+
+│
+
+├── realtime_demo.py # Main Python script
+
+├── wide_resnet.py # WideResNet model definition
+
+├── README.md # You're reading it!
+
+├── requirements.txt # Dependencies
 
 ## 🔧 Installation Guide
 
